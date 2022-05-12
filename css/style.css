@@ -1509,6 +1509,13 @@ body, img, footer, a{
         overflow: hidden;
       }   
 
+.cenefa-uno{
+    display: block;
+}
+.cenefa-dos{
+    display: none;
+}
+      
 .historia-uno {
 display: block;
 }
@@ -1732,6 +1739,12 @@ width:35vw;
            overflow: hidden;
          }   
    
+         .cenefa-uno{
+            display: block;
+        }
+        .cenefa-dos{
+            display: none;
+        }
          .historia-uno {
             display: block;
             }
@@ -1949,7 +1962,15 @@ width:35vw;
            grid-area: main; 
            min-height: 100%;
            overflow: hidden;
-         }   
+         }  
+         
+         .cenefa-uno{
+            display: none;
+        }
+        .cenefa-dos{
+            display: block;
+        }
+
          .historia-uno {
             display: none;
             }
@@ -2168,6 +2189,14 @@ width:35vw;
    min-height: 100%;
    overflow: hidden;
  }   
+
+ .cenefa-uno{
+    display: none;
+}
+.cenefa-dos{
+    display: block;
+}
+
  .historia-uno {
     display: none;
     }
